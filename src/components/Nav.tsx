@@ -51,12 +51,12 @@ export default function Nav(){
     return (
         <StyledNav>
             <StyledUl>
-                <StyledItem><StyledLink to={"/"}>Home</StyledLink></StyledItem>
-                <StyledItem><StyledLink to={"/education"}>Education</StyledLink></StyledItem>
-                <StyledItem><StyledLink to={"/work"}>Employment</StyledLink></StyledItem>
-                <StyledItem><StyledLink to={"/leadership"}>Leadership</StyledLink></StyledItem>
-                <StyledItem><StyledLink to={"/skills"}>Skills</StyledLink></StyledItem>
-                <StyledItem><StyledLink to={"/projects"}>Projects</StyledLink></StyledItem>
+                <StyledItem><StyledLink to={`/`}>Home</StyledLink></StyledItem>
+                <StyledItem><StyledLink to={`/education`}>Education</StyledLink></StyledItem>
+                <StyledItem><StyledLink to={`/work`}>Employment</StyledLink></StyledItem>
+                <StyledItem><StyledLink to={`/leadership`}>Leadership</StyledLink></StyledItem>
+                <StyledItem><StyledLink to={`/skills`}>Skills</StyledLink></StyledItem>
+                <StyledItem><StyledLink to={`/projects`}>Projects</StyledLink></StyledItem>
             </StyledUl>
         </StyledNav>
     )

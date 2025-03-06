@@ -33,7 +33,7 @@ export default function Projects() {
             <h3>Projects</h3>
             <StyledH4>Sobriquet Name Generator</StyledH4>
             <a href={"https://name-generator-gules.vercel.app/index.html"} target={"_blank"}>
-                <StyledImg src={"/public/sobriquet-logo.png"} alt={"Sobriquet logo"} />
+                <StyledImg src={"/sobriquet-logo.png"} alt={"Sobriquet logo"} />
             </a>
             <p style={{textAlign: "center"}}><a href={"https://name-generator-gules.vercel.app/index.html"} target={"_blank"}>Sobriquet</a> is a name
                 generator website I'm working on to help writers and artists like myself.</p>

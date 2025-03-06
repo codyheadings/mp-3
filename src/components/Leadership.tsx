@@ -13,7 +13,7 @@ export default function Leadership() {
         <main>
             <h3>Leadership Experience</h3>
             <h4>BU Arts and Literary Club</h4>
-            <StyledImg src="/public/alc-logo.png" alt="Logo for BU Arts and Literary Club"/>
+            <StyledImg src="/alc-logo.png" alt="Logo for BU Arts and Literary Club"/>
             <p>Member Since Fall 2023
                 <br/><br/>
                 Treasurer: MAR 2024 - PRESENT

@@ -14,7 +14,7 @@ export default function Home() {
         <main>
             <h3>Home</h3>
 
-            <StyledImg src="/public/cody-pic.png" alt="Cody Headings Portrait Image"/>
+            <StyledImg src="/cody-pic.png" alt="Cody Headings Portrait Image"/>
             <h4>About Me</h4>
             <p>I'm a dedicated student from a small town in the Midwest in my third year of a bachelor's degree in
                 computer science at Boston University. In Boston, I've had the opportunity to meet so many fun and

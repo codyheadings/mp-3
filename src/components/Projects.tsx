@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Calculator from "./Calculator.tsx";
+import {useEffect} from "react";
 
 const StyledA  = styled.a`
     margin: 1vh 1vw;
@@ -28,6 +29,11 @@ const StyledImg = styled.img`
 `
 
 export default function Projects() {
+
+    useEffect(() => {
+        document.title = "Projects | Resume";
+    }, [])
+
     return (
         <main>
             <h3>Projects</h3>

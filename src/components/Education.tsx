@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
 
 const StyledLiInd = styled.li`
     font-size: calc(10px + .5vw);
@@ -11,6 +12,11 @@ const StyledLink = styled(Link)`
 `
 
 export default function Education() {
+
+    useEffect(() => {
+        document.title = "Education | Resume";
+    }, [])
+
     return (
         <main>
             <h3>Education</h3>

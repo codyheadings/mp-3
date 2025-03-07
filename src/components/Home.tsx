@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {useEffect} from "react";
 
 const StyledImg = styled.img`
     margin: 3vh;
@@ -10,6 +11,11 @@ const StyledImg = styled.img`
 `
 
 export default function Home() {
+
+    useEffect(() => {
+        document.title = "Home | Resume";
+    }, [])
+
     return (
         <main>
             <h3>Home</h3>

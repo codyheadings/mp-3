@@ -1,5 +1,11 @@
+import {useEffect} from "react";
 
 export default function Skills() {
+
+    useEffect(() => {
+        document.title = "Skills | Resume";
+    }, [])
+
     return (
         <main>
             <h3>Skills</h3>

@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import Calculator from "./Calculator.tsx";
 import {useEffect} from "react";
+import {Link} from "react-router-dom";
 
-const StyledA  = styled.a`
+const StyledLink  = styled(Link)`
     margin: 1vh 1vw;
     font-size: calc(10px + .5vw);
     color: #156064ff;
@@ -38,13 +39,13 @@ export default function Projects() {
         <main>
             <h3>Projects</h3>
             <StyledH4>Sobriquet Name Generator</StyledH4>
-            <a href={"https://name-generator-gules.vercel.app/index.html"} target={"_blank"}>
+            <Link to={`https://name-generator-gules.vercel.app/index.html`} target={"_blank"}>
                 <StyledImg src={"/sobriquet-logo.png"} alt={"Sobriquet logo"} />
-            </a>
+            </Link>
             <p style={{textAlign: "center"}}><a href={"https://name-generator-gules.vercel.app/index.html"} target={"_blank"}>Sobriquet</a> is a name
                 generator website I'm working on to help writers and artists like myself.</p>
             <StyledH4>Other Projects</StyledH4>
-            <StyledA href="https://github.com/codyheadings?tab=repositories" target="_blank">GitHub</StyledA>
+            <StyledLink to="https://github.com/codyheadings?tab=repositories" target="_blank">GitHub</StyledLink>
             <StyledH4>TypeScript Calculator</StyledH4>
             <Calculator/>
         </main>
